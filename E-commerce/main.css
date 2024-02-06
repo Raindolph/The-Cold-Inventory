@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 100;
+    font-weight: lighter;
+}
+
+#navbar{
+    display: flex;
+    height: 15vh;
+    width: 100%;
+    background-image: linear-gradient(to right, grey, black);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#logo{
+    flex-basis: 30%;
+    margin-left: 20px;
+    width: 20px;
+    margin-top: 9px;
+}
+
+#head{
+    margin-top: -45px;
+    margin-left: 85px;
+}
+
+
+#signup{
+    height: 6vh;
+    width: 80px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+
+#signup:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+#navbuttons{
+    margin-top: 28px;
+    text-align: center;
+}
+
+#nav-links{
+    display: inline;
+    list-style: none;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+#bnav-links{
+    display: inline;
+    list-style: none;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+#links{
+    text-decoration: none;
+    color: white;
+    position: sticky;
+}
+
+#nav-links:hover{
+    border: solid white 1.5px;
+    height: 6vh;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: black;
+    transition: 500ms;
+}
+
+#intro{
+    padding: 20px;
+    background-image: url(./images/snow.jpg);
+    background-size: cover;
+}
+
+#search-bar{
+    margin-left: 18cm;
+    width: 470px;
+    height: 6vh;
+    margin-top: -200px;
+    border-radius: 15px;
+    outline: none;
+    border: solid black 1px;
+    padding-left: 5px;
+}
+
+#search{
+    margin-left: -67px;
+    top: -2px;
+    height: 5vh;
+    width: 60px;
+    border-radius: 15px;
+    background-color: rgb(113, 205, 255);
+    border: none;
+}
+
+#search:hover{
+    border: solid black 2px;
+    transition: 100ms;
+}
+
+#offers{
+    margin-top: 20px;
+    margin-left: 550px;
+};
+
+container{   
+    display: none;
+}
+
+#container{
+    width: 100%;
+    height: 60vh;
+    
+}
+
+#first{
+    border: solid black 1px;
+    height: 60vh;
+    width: 24%;
+    border-radius: 15px;
+    box-shadow: 1px 5px 5px;
+}
+
+#first:hover{
+    height: 65vh;
+    box-shadow: 3px 5px 5px;
+    border-radius: 20px;
+    border: solid rgb(113, 205, 255) 2px;
+    transition: 500ms;
+}
+
+#first-png{
+    width: 280px;
+    height: 280px;
+    margin-left: 10px;
+    margin-top: 12px;
+    border-radius: 20px;
+    background-color: rgb(215, 215, 215);
+}
+
+#cart_1{
+    margin-left: 250px;
+    margin-top: -80px;
+    height: 35px;
+    width: 35px;
+    border: solid black 1px;
+    border-radius: 25px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+#desc{
+    text-align: center;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+#second{
+    border: solid black 1px;
+    border-radius: 15px;
+    height: 60vh;
+    width: 24%;
+    margin-left: 315px;
+    margin-top: -380px;
+    box-shadow: 1px 5px 5px;
+}
+
+#second_png{
+    width: 280px;
+    height: 280px;
+    margin-left: 10px;
+    margin-top: 12px;
+    border-radius: 20px;
+    background-color: rgb(215, 215, 215);
+}
+
+#second:hover{
+    height: 65vh;
+    box-shadow: 3px 5px 5px;
+    border-radius: 20px;
+    border: solid rgb(113, 205, 255) 2px;
+    transition: 500ms;
+}
+
+#third{
+    border: solid black 1px;
+    border-radius: 15px;
+    height: 60vh;
+    width: 24%;
+    margin-left: 630px;
+    margin-top: -379px;
+    box-shadow: 1px 5px 5px;
+}
+
+#third:hover{
+    height: 65vh;
+    box-shadow: 3px 5px 5px;
+    border-radius: 20px;
+    border: solid rgb(113, 205, 255) 2px;
+    transition: 500ms;
+}
+
+#third_png{
+    width: 280px;
+    height: 280px;
+    margin-left: 10px;
+    margin-top: 12px;
+    border-radius: 20px;
+    background-color: rgb(215, 215, 215);
+}
+
+#fourth{
+    border: solid black 1px;
+    border-radius: 15px;
+    height: 60vh;
+    width: 24%;
+    margin-left: 945px;
+    margin-top: -379px;
+    box-shadow: 1px 5px 5px;   
+}
+
+#fourth:hover{
+    height: 65vh;
+    box-shadow: 3px 5px 5px;
+    border-radius: 20px;
+    border: solid rgb(113, 205, 255) 2px;
+    transition: 500ms;
+}
+
+#fourth_png{
+    width: 280px;
+    height: 280px;
+    margin-left: 10px;
+    margin-top: 12px;
+    border-radius: 20px;
+    background-color: rgb(215, 215, 215);
+}
+
+#truck{
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 80px;
+    height: 80px;
+    border: solid black 1px;
+    border-radius: 50px;
+}
+
+#truck:hover{
+    border: solid red 2px;
+    width: 90px;
+    height: 90px;
+    transition: 500ms;
+}
+
+#affordable{
+    width: 80px;
+    height: 80px;
+    margin-left: 380px;
+    margin-top: -290px;
+    border: solid black 1px;
+    border-radius: 50px;
+}
+
+#affordable:hover{
+    border: solid red 2px;
+    width: 90px;
+    height: 90px;
+    transition: 500ms;
+}
+
+#shipping{
+    width: 80px;
+    height: 80px;
+    border: solid black 1px;
+    border-radius: 50px;
+    margin-left: 750px;
+    margin-top: -310px;
+}
+
+#shipping:hover{
+    border: solid red 2px;
+    width: 90px;
+    height: 90px;
+    transition: 500ms;
+}
+
+#ad{
+    margin-top: 100px;
+    background-image: linear-gradient( white,  rgb(113, 205, 255));
+}
+
+#explore{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 150px;
+    border: solid black 1px;
+    border-radius: 15px;
+    height: 6vh;
+    font-weight: 900;
+    background-color: white;
+}
+
+#explore:hover{
+    background-color: transparent;
+    border: solid white 1px;
+    transition: 500ms;
+}
+
+#bottom{
+    margin-top: px;
+    height: 90vh;
+    background-image: linear-gradient(rgb(113, 205, 255), white);
+}
+
+#plane{
+    border: solid black 1px;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#newsletter{
+    margin-left: 70px;
+    margin-top: -40px;
+}
+
+#mail{
+    margin-left: 70px;
+    width: 400px;
+    height: 6vh;
+    border-radius: 5px;
+    border: solid black 1px;
+    padding-left: 15px;
+}
+
+#plane_button{
+    height: 6vh;
+    width: 60px;
+    margin-top: -1px;
+    border-radius: 10px;
+    border: solid black 1px;
+}
+
+#cold_inv_bottom{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+#registered{
+    margin-left: 220px;
+    margin-top: -140px;
+    height: 7vh;
+}
+
+#bottom_links{
+    margin-left: 700px;
+    margin-top: -120px;
+}
+
+#b_links{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+#socials{
+    margin-left: 47px;
+}
+
+#socials_png{
+    border-radius: 10px;
+    height: 5vh;
+    padding: 3px;
+}
+
+/* Shop Section*/
+
+#shop_search{
+    margin-top: 10px;
+    margin-left: -67px;
+    top: -2px;
+    height: 5vh;
+    width: 60px;
+    border-radius: 15px;
+    background-color: rgb(113, 205, 255);
+    border: none;
+}
